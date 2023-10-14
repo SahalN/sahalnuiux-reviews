@@ -6,6 +6,13 @@ export default function CoffeeShopPage() {
   return (
     <>
       <Heading>Coffee Shop</Heading>
+      <img
+        src='/images/coffee-shop.png'
+        alt='coffee-shop-design'
+        width='640'
+        height='360'
+        className='mb-2 rounded'
+      />
       <p>
         Review: [Nama Coffee Shop] menghadirkan pengalaman yang menggoda dan
         memikat bagi para pecinta kopi dengan desainnya yang penuh gaya. Begitu
