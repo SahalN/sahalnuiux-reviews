@@ -16,12 +16,32 @@ export default function ReviewsPage() {
         yang ingin mengeksplorasi, mengamati, dan memahami esensi desain UI/UX
         terbaik.
       </p>
-      <ul>
-        <li>
-          <Link href='/reviews/office-attendance'>Office Attendance</Link>
+      <ul className='flex flex-col gap-3'>
+        <li className='bg-white border rounded shadow w-80 hover:shadow-xl'>
+          <Link href='/reviews/office-attendance'>
+            <img
+              src='/images/office-attendance.png'
+              alt='office-attendance-design'
+              width='640'
+              height='360'
+              className='mb-2 rounded'
+            />
+            <h2 className='py-1 text-center text-[#303030]'>
+              Office Attendance
+            </h2>
+          </Link>
         </li>
-        <li>
-          <Link href='/reviews/coffee-shop'>Coffee Shop</Link>
+        <li className='bg-white border rounded shadow w-80 hover:shadow-xl'>
+          <Link href='/reviews/coffee-shop'>
+            <img
+              src='/images/coffee-shop.png'
+              alt='coffee-shop-design'
+              width='640'
+              height='360'
+              className='mb-2 rounded'
+            />
+            <h2 className='py-1 text-center text-[#303030]'>Coffee Shop</h2>
+          </Link>
         </li>
       </ul>
     </>
