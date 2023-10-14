@@ -6,10 +6,10 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body>
+      <body className='flex flex-col min-h-screen px-4 py-2'>
         <header>
           <nav>
-            <ul>
+            <ul className='flex gap-2'>
               <li>
                 <Link href='/'>Home</Link>
               </li>
@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
             </ul>
           </nav>
         </header>
-        <main>{children}</main>
-        <footer>
+        <main className='py-3 grow'>{children}</main>
+        <footer className='py-3 text-xs text-center border-t'>
           &copy; 2023 Sahal Nurdin | Designed by{" "}
           <a href='https://dribbble.com/SahalN' target='_blank'>
             SahalN
