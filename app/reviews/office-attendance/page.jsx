@@ -6,6 +6,13 @@ export default function OfficeAttendancePage() {
   return (
     <>
       <Heading>Office Attendance</Heading>
+      <img
+        src='/images/office-attendance.png'
+        alt='office-attendance-design'
+        width='640'
+        height='360'
+        className='mb-2 rounded'
+      />
       <p>
         Desain Aplikasi Absensi Kantor ini menonjol dengan kecerdasan dalam
         menyatukan fungsi dan estetika, menghadirkan pengalaman manajemen
