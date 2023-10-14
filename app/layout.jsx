@@ -24,7 +24,12 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         <main>{children}</main>
-        <footer>[Footer]</footer>
+        <footer>
+          &copy; 2023 Sahal Nurdin | Designed by{" "}
+          <a href='https://dribbble.com/SahalN' target='_blank'>
+            SahalN
+          </a>
+        </footer>
       </body>
     </html>
   );
