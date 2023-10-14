@@ -11,8 +11,8 @@ export default function NavBar() {
             Home
           </Link>
         </li>
-        <li>
-          <Link href='/reviews' className='hover:underline decoration-4'>
+        <li className='ml-auto'>
+          <Link href='/reviews' className=' hover:underline decoration-4'>
             Reviews
           </Link>
         </li>

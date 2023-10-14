@@ -2,10 +2,11 @@
 
 import "./globals.css";
 import NavBar from "../components/NavBar";
+import { mplusrounded1c } from "./fonts";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='en' className={mplusrounded1c.variable}>
       <body className='flex flex-col min-h-screen   mt-3 px-4 py-2 bg-[#303030] text-white'>
         <header>
           <NavBar />
