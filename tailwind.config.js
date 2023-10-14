@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
         mplusrounded1c: ["var(--font-mplusrounded1c)", "sans-serif"],
       },
     },
