@@ -1,6 +1,6 @@
 /** @format */
 
-import Link from "next/link";
+
 import "./globals.css";
 import NavBar from "../components/NavBar";
 
