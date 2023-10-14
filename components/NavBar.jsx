@@ -5,14 +5,24 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <nav>
-      <ul className='flex gap-2'>
+      <ul className='flex items-center gap-2 '>
         <li>
-          <Link href='/' className='hover:underline decoration-4'>
-            Home
-          </Link>
+          <div className='flex items-center '>
+            <img
+              src='/images/logo-sahal.png'
+              width='60'
+              height='600'
+              alt='ini-logo'
+            />
+            <Link
+              href='/'
+              className='text-2xl font-bold font-mplusrounded1c hover:underline decoration-4'>
+              Sahal Nurdin
+            </Link>
+          </div>
         </li>
-        <li className='ml-auto'>
-          <Link href='/reviews' className=' hover:underline decoration-4'>
+        <li className='ml-auto '>
+          <Link href='/reviews' className='hover:underline decoration-4'>
             Reviews
           </Link>
         </li>
