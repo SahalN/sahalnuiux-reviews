@@ -1,9 +1,11 @@
 /** @format */
 
+import Heading from "../../../components/Heading";
+
 export default function CoffeeShopPage() {
   return (
     <>
-      <h1>Coffee Shop</h1>
+      <Heading>Coffee Shop</Heading>
       <p>
         Review: [Nama Coffee Shop] menghadirkan pengalaman yang menggoda dan
         memikat bagi para pecinta kopi dengan desainnya yang penuh gaya. Begitu

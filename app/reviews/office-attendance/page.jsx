@@ -1,9 +1,11 @@
 /** @format */
 
+import Heading from "../../../components/Heading";
+
 export default function OfficeAttendancePage() {
   return (
     <>
-      <h1>Office Attendance</h1>
+      <Heading>Office Attendance</Heading>
       <p>
         Desain Aplikasi Absensi Kantor ini menonjol dengan kecerdasan dalam
         menyatukan fungsi dan estetika, menghadirkan pengalaman manajemen

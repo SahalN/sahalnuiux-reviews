@@ -1,9 +1,11 @@
 /** @format */
 
+import Heading from "../../components/Heading";
+
 export default function AboutPage() {
   return (
     <>
-      <h1>About</h1>
+      <Heading>About</Heading>
       <p>
         Selamat datang di halaman "Tentang Kami" [Nama Website Anda]! Kami
         adalah kumpulan individu yang memiliki hasrat mendalam terhadap desain

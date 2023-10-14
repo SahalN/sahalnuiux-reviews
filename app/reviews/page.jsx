@@ -1,10 +1,11 @@
 /** @format */
 import Link from "next/link";
+import Heading from "../../components/Heading";
 
 export default function ReviewsPage() {
   return (
     <>
-      <h1>Reviews</h1>
+      <Heading>Reviews</Heading>
       <p>
         Halaman review desain UI/UX menyajikan katalog varian desain kreatif,
         dari tata letak hingga warna, memberikan pemahaman mendalam tentang
