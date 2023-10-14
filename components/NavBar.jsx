@@ -7,13 +7,20 @@ export default function NavBar() {
     <nav>
       <ul className='flex gap-2'>
         <li>
-          <Link href='/'>Home</Link>
+          <Link href='/' className='hover:underline decoration-4'>
+            Home
+          </Link>
         </li>
         <li>
-          <Link href='/reviews'>Reviews</Link>
+          <Link href='/reviews' className='hover:underline decoration-4'>
+            Reviews
+          </Link>
         </li>
         <li>
-          <Link href='/about' prefetch={false}>
+          <Link
+            href='/about'
+            prefetch={false}
+            className='hover:underline decoration-4'>
             About
           </Link>
         </li>

@@ -14,7 +14,10 @@ export default function RootLayout({ children }) {
         <main className='py-3 grow'>{children}</main>
         <footer className='py-3 text-xs text-center border-t'>
           &copy; 2023 Sahal Nurdin | Designed by{" "}
-          <a href='https://dribbble.com/SahalN' target='_blank'>
+          <a
+            href='https://dribbble.com/SahalN'
+            target='_blank'
+            className='hover:underline'>
             SahalN
           </a>
         </footer>
