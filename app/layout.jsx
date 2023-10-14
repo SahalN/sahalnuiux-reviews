@@ -2,27 +2,14 @@
 
 import Link from "next/link";
 import "./globals.css";
+import NavBar from "../components/NavBar";
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='flex flex-col min-h-screen px-4 py-2'>
+      <body className='flex flex-col min-h-screen px-4 py-2 bg-[#303030] text-white'>
         <header>
-          <nav>
-            <ul className='flex gap-2'>
-              <li>
-                <Link href='/'>Home</Link>
-              </li>
-              <li>
-                <Link href='/reviews'>Reviews</Link>
-              </li>
-              <li>
-                <Link href='/about' prefetch={false}>
-                  About
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <NavBar />
         </header>
         <main className='py-3 grow'>{children}</main>
         <footer className='py-3 text-xs text-center border-t'>
