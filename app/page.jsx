@@ -23,7 +23,7 @@ export default function HomePage() {
             height='260'
             className='rounded-xl'
           />
-          <h2 className='py-1 text-center sm:text-2xl text-[#303030] font-bold font-mplusrounded1c m-auto'>
+          <h2 className='py-1 text-center sm:text-2xl text-[#303030] font-bold font-montserrat m-auto'>
             Office Attendance
           </h2>
         </Link>

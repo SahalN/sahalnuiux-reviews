@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],
-        mplusrounded1c: ["var(--font-mplusrounded1c)", "sans-serif"],
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
       },
       colors: {
         "white-brown": "#F0E7DB",

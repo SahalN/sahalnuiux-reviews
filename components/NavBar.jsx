@@ -16,7 +16,7 @@ export default function NavBar() {
             />
             <Link
               href='/'
-              className='text-xl font-extrabold font-mplusrounded1c hover:underline decoration-4'>
+              className='text-xl font-extrabold font-montserrat hover:underline decoration-4'>
               Sahal Nurdin
             </Link>
           </div>
