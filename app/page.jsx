@@ -1,9 +1,11 @@
 /** @format */
 
 import Heading from "@/components/Heading";
+import { getFeaturedReview } from "@/lib/reviews";
 import Link from "next/link";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const review = await getFeaturedReview();
   return (
     <>
       <Heading>Sahal Nurdin</Heading>
@@ -14,17 +16,17 @@ export default function HomePage() {
       </p>
       <div className='mx-auto border shadow rounded-xl bg-white-brown hover:shadow-white-brown hover:shadow-xl w-70 sm:w-full'>
         <Link
-          href='/reviews/office-attendance'
+          href={`/reviews/${review.slug}`}
           className='flex flex-col sm:flex-row'>
           <img
-            src='/images/office-attendance.png'
+            src={review.image}
             alt='office-attendance-design'
             width='540'
             height='260'
             className='rounded-xl'
           />
           <h2 className='py-1 text-center sm:text-2xl text-[#303030] font-bold font-montserrat m-auto'>
-            Office Attendance
+            {review.title}
           </h2>
         </Link>
       </div>
