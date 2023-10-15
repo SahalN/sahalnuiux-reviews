@@ -13,14 +13,12 @@ export default async function ReviewsPage() {
     <>
       <Heading>Reviews</Heading>
       <p className='pb-3'>
-        Halaman review desain UI/UX menyajikan katalog varian desain kreatif,
-        dari tata letak hingga warna, memberikan pemahaman mendalam tentang
-        konsep dan kelebihan setiap proyek. Dengan analisis yang tajam, halaman
-        ini memandu pengunjung melalui inspirasi dan tren terkini, memberikan
-        wawasan kritis untuk pengembangan desain yang efektif. Diperkaya dengan
-        galeri visual, halaman ini menjadi sumber daya penting bagi desainer
-        yang ingin mengeksplorasi, mengamati, dan memahami esensi desain UI/UX
-        terbaik.
+        Selamat datang di halaman ulasan! Di sini, saya bagikan sejumlah hasil
+        proyek UI/UX yang telah saya rancang. Setiap desain tidak hanya tentang
+        penampilan visual yang menarik, tapi juga makna mendalam dan pengalaman
+        pengguna yang optimal. Jelajahi portofolio saya untuk melihat keragaman
+        konsep dan industri yang pernah saya tangani. Terima kasih atas
+        kunjungan Anda, semoga temukan inspirasi dalam desain-desain saya!
       </p>
       <ul className='flex flex-row gap-3 '>
         {reviews.map((review) => (

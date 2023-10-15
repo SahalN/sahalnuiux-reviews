@@ -31,7 +31,7 @@ export default function NavBar() {
             href='/about'
             prefetch={false}
             className='hover:underline decoration-4'>
-            About
+            About Me
           </Link>
         </li>
       </ul>

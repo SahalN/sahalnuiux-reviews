@@ -8,28 +8,34 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <Heading>About</Heading>
+      <Heading>About Me</Heading>
       <p>
-        Selamat datang di halaman "Tentang Kami" [Nama Website Anda]! Kami
-        adalah kumpulan individu yang memiliki hasrat mendalam terhadap desain
-        UI/UX yang inovatif dan inspiratif. [Nama Anda], sebagai penggagas dan
-        perancang utama di balik situs ini, percaya bahwa pengalaman pengguna
-        yang luar biasa adalah kunci utama keberhasilan setiap desain digital.
-        Dengan fokus pada desain UI/UX, [Nama Website Anda] merupakan wadah di
-        mana saya berbagi pandangan, penilaian, dan inspirasi mengenai proyek
-        desain yang telah saya garap. Menyelami dunia desain, saya berusaha
-        tidak hanya untuk menciptakan estetika visual yang menarik tetapi juga
-        memastikan bahwa setiap elemen dirancang dengan kecermatan untuk
-        meningkatkan kenyamanan dan pengalaman pengguna secara menyeluruh.
-        Halaman ini bukan hanya tentang presentasi karya saya, tetapi juga
-        menjadi platform di mana kita dapat berinteraksi dan berbagi ide. Saya
-        percaya bahwa desain yang kuat dapat tumbuh dan berkembang melalui
-        kolaborasi dan umpan balik. Oleh karena itu, mari bersama-sama
-        menjelajahi dunia desain UI/UX dan merangkul inovasi bersama di [Nama
-        Website Anda]. Terima kasih atas kunjungan Anda, dan saya berharap Anda
-        menikmati perjalanan desain yang saya bagikan di sini. Jangan ragu untuk
-        berkontribusi dengan tanggapan dan pertanyaan Anda. Mari kita membangun
-        komunitas kreatif yang inspiratif! Salam, [Nama Anda]
+        Halo semua, perkenalkan saya Muhammad Sahal Nurdin, atau yang umumnya
+        disapa Sahal. Saya seorang Fullstack Programmer yang secara konsisten
+        belajar pemrograman. Di samping fokus pada pengembangan fungsionalitas
+        perangkat lunak, saya juga memiliki ketertarikan mendalam terhadap aspek
+        User Interface (UI) dan User Experience (UX). Keberhasilan sebuah proyek
+        tidak hanya tergantung pada kinerja teknis, melainkan juga pada kualitas
+        antarmuka pengguna dan pengalaman pengguna yang dihadirkan. Saya
+        meyakini bahwa desain bukanlah sekadar bentuk visual semata, tetapi juga
+        merupakan medium untuk menyampaikan makna dan meningkatkan kenyamanan
+        pengguna.
+      </p>
+      <br />
+      <p>
+        Pada saat-saat di mana saya tidak tengah terlibat dalam pengembangan
+        perangkat lunak, saya sering kali mengalokasikan waktu untuk mengasah
+        keterampilan UI/UX. Hal ini tidak hanya dianggap sebagai kegiatan
+        hiburan, tetapi juga sebagai suatu usaha untuk mendiversifikasi
+        keterampilan saya dan memberikan dampak positif terhadap proyek-proyek
+        yang saya tangani. Melalui proyek-proyek UI/UX yang saya rancang, tujuan
+        saya adalah menciptakan antarmuka yang estetis dan berfungsi sekaligus
+        memahami kebutuhan pengguna secara mendalam. Saya mengundang Anda untuk
+        melihat karya-karya saya di dunia UI/UX, di mana setiap desain tidak
+        hanya menjadi perwujudan estetika visual, tetapi juga membawa nilai
+        tambah yang substansial bagi pengguna. Terima kasih atas perhatian
+        kalian dan selamat menikmati pengalaman eksplorasi di dalam dunia
+        kreativitas desain UI/UX saya.
       </p>
     </>
   );
