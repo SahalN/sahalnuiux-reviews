@@ -4,6 +4,13 @@ import "./globals.css";
 import NavBar from "../components/NavBar";
 import { inter, montserrat } from "./fonts";
 
+export const metadata = {
+  title: {
+    default: "Sahal Nurdin",
+    template: "%s | Sahal Nurdin",
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${montserrat.variable} `}>
