@@ -2,9 +2,11 @@
 
 import Heading from "@/components/Heading";
 import { readFile } from "node:fs/promises";
+import { marked } from "marked";
 
 export default async function OfficeAttendancePage() {
   const text = await readFile("./content/reviews/office-attendance.md", "utf8");
+  const html = marked(text, { headerIds: false, mangle: false });
   return (
     <>
       <Heading>Office Attendance</Heading>
@@ -15,7 +17,7 @@ export default async function OfficeAttendancePage() {
         height='360'
         className='mx-auto mb-2 rounded'
       />
-      {text}
+      <article dangerouslySetInnerHTML={{ __html: html }} />
       <p>
         Desain Aplikasi Absensi Kantor ini menonjol dengan kecerdasan dalam
         menyatukan fungsi dan estetika, menghadirkan pengalaman manajemen
