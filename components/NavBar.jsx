@@ -16,13 +16,15 @@ export default function NavBar() {
             />
             <Link
               href='/'
-              className='text-xl font-extrabold font-montserrat hover:underline decoration-4'>
+              className='text-sm font-extrabold sm:text-xl font-montserrat hover:underline decoration-4'>
               Sahal Nurdin
             </Link>
           </div>
         </li>
         <li className='ml-auto '>
-          <Link href='/reviews' className='hover:underline decoration-4'>
+          <Link
+            href='/reviews'
+            className='text-sm font-semibold sm:text-lg hover:underline decoration-4 '>
             Reviews
           </Link>
         </li>
@@ -30,7 +32,7 @@ export default function NavBar() {
           <Link
             href='/about'
             prefetch={false}
-            className='hover:underline decoration-4'>
+            className='text-sm font-semibold sm:text-lg hover:underline decoration-4'>
             About Me
           </Link>
         </li>

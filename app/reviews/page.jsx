@@ -20,7 +20,7 @@ export default async function ReviewsPage() {
         konsep dan industri yang pernah saya tangani. Terima kasih atas
         kunjungan Anda, semoga temukan inspirasi dalam desain-desain saya!
       </p>
-      <ul className='flex flex-row gap-3 '>
+      <ul className='flex flex-col gap-3 mx-auto sm:flex-row '>
         {reviews.map((review) => (
           <li
             key={review.slug}
@@ -31,9 +31,9 @@ export default async function ReviewsPage() {
                 alt='office-attendance-design'
                 width='640'
                 height='360'
-                className='rounded '
+                className='rounded'
               />
-              <h2 className='py-2 text-center text-[#303030] font-bold '>
+              <h2 className='py-2 text-center text-[#303030] font-montserrat font-semibold'>
                 {review.title}
               </h2>
             </Link>
