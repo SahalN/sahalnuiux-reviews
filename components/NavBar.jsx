@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <nav>
-      <ul className='flex items-center gap-2 '>
+      <ul className='flex items-center gap-2 pr-5 '>
         <li>
           <div className='flex items-center '>
             <img
@@ -16,7 +16,7 @@ export default function NavBar() {
             />
             <Link
               href='/'
-              className='text-2xl font-bold font-mplusrounded1c hover:underline decoration-4'>
+              className='text-xl font-extrabold font-mplusrounded1c hover:underline decoration-4'>
               Sahal Nurdin
             </Link>
           </div>

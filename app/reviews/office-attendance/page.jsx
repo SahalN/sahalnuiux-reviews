@@ -11,7 +11,7 @@ export default function OfficeAttendancePage() {
         alt='office-attendance-design'
         width='640'
         height='360'
-        className='mb-2 rounded'
+        className='mx-auto mb-2 rounded'
       />
       <p>
         Desain Aplikasi Absensi Kantor ini menonjol dengan kecerdasan dalam

@@ -7,12 +7,12 @@ import { inter, mplusrounded1c } from "./fonts";
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${mplusrounded1c.variable} `}>
-      <body className='flex flex-col min-h-screen mt-3 px-4 py-2 bg-[#303030] text-white'>
+      <body className='flex flex-col min-h-screen  mt-3 px-4 lg:px-40 md:px-20 sm:px-10 py-2 bg-[#303030] text-white'>
         <header>
           <NavBar />
         </header>
-        <main className='py-3 grow'>{children}</main>
-        <footer className='py-3 text-xs text-center border-t'>
+        <main className='px-5 py-3 grow '>{children}</main>
+        <footer className='max-w-screen-md px-5 py-3 mx-auto text-xs text-center '>
           &copy; 2023 Sahal Nurdin | Designed by{" "}
           <a
             href='https://dribbble.com/SahalN'

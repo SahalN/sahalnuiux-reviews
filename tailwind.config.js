@@ -11,6 +11,9 @@ module.exports = {
         sans: ["var(--font-inter)", "sans-serif"],
         mplusrounded1c: ["var(--font-mplusrounded1c)", "sans-serif"],
       },
+      colors: {
+        "white-brown": "#F0E7DB",
+      },
     },
   },
   plugins: [],

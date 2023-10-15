@@ -6,7 +6,7 @@ export default function ReviewsPage() {
   return (
     <>
       <Heading>Reviews</Heading>
-      <p>
+      <p className='pb-3'>
         Halaman review desain UI/UX menyajikan katalog varian desain kreatif,
         dari tata letak hingga warna, memberikan pemahaman mendalam tentang
         konsep dan kelebihan setiap proyek. Dengan analisis yang tajam, halaman
@@ -16,7 +16,7 @@ export default function ReviewsPage() {
         yang ingin mengeksplorasi, mengamati, dan memahami esensi desain UI/UX
         terbaik.
       </p>
-      <ul className='flex flex-col gap-3'>
+      <ul className='flex flex-row gap-3 '>
         <li className='bg-white border rounded shadow w-80 hover:shadow-xl'>
           <Link href='/reviews/office-attendance'>
             <img
@@ -24,9 +24,9 @@ export default function ReviewsPage() {
               alt='office-attendance-design'
               width='640'
               height='360'
-              className='mb-2 rounded'
+              className='rounded '
             />
-            <h2 className='py-1 text-center text-[#303030] font-semibold'>
+            <h2 className='py-2 text-center text-[#303030] font-bold '>
               Office Attendance
             </h2>
           </Link>
@@ -38,9 +38,9 @@ export default function ReviewsPage() {
               alt='coffee-shop-design'
               width='640'
               height='360'
-              className='mb-2 rounded'
+              className='rounded '
             />
-            <h2 className='py-1 text-center text-[#303030] font-semibold'>
+            <h2 className='py-2 text-center text-[#303030] font-bold '>
               Coffee Shop
             </h2>
           </Link>
