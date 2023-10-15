@@ -3,8 +3,8 @@
 import Heading from "@/components/Heading";
 import { getReview } from "@/lib/reviews";
 
-export default async function OfficeAttendancePage() {
-  const review = await getReview("office-attendance");
+export default async function ReviewPage({ params: { slug } }) {
+  const review = await getReview(slug);
   return (
     <>
       <Heading>{review.title}</Heading>
