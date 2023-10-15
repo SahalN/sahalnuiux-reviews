@@ -1,6 +1,7 @@
 /** @format */
 
 import Heading from "@/components/Heading";
+import ShareLinkButton from "@/components/ShareLinkButton";
 import { getReview, getSlugs } from "@/lib/reviews";
 
 export async function generateMetadata({ params: { slug } }) {
@@ -20,7 +21,11 @@ export default async function ReviewPage({ params: { slug } }) {
   return (
     <>
       <Heading>{review.title}</Heading>
-      <p className='pb-2 italic'>Di publish pada {review.date}</p>
+      <div className='flex items-center gap-3'>
+        <p className='text-sm italic'>Di publish pada {review.date}</p>
+        <ShareLinkButton />
+      </div>
+
       <img
         src={review.image}
         alt='office-attendance-design'
