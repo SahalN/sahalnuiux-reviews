@@ -18,7 +18,7 @@ export default async function ReviewPage({ params: { slug } }) {
       />
       <article
         dangerouslySetInnerHTML={{ __html: review.body }}
-        className='mx-auto prose text-white prose-slate'
+        className='mx-auto prose text-white prose-slate '
       />
     </>
   );

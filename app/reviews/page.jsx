@@ -19,34 +19,24 @@ export default async function ReviewsPage() {
         terbaik.
       </p>
       <ul className='flex flex-row gap-3 '>
-        <li className='bg-white border rounded shadow w-80 hover:shadow-xl'>
-          <Link href='/reviews/office-attendance'>
-            <img
-              src='/images/office-attendance.png'
-              alt='office-attendance-design'
-              width='640'
-              height='360'
-              className='rounded '
-            />
-            <h2 className='py-2 text-center text-[#303030] font-bold '>
-              Office Attendance
-            </h2>
-          </Link>
-        </li>
-        <li className='bg-white border rounded shadow w-80 hover:shadow-xl '>
-          <Link href='/reviews/coffee-shop'>
-            <img
-              src='/images/coffee-shop.png'
-              alt='coffee-shop-design'
-              width='640'
-              height='360'
-              className='rounded '
-            />
-            <h2 className='py-2 text-center text-[#303030] font-bold '>
-              Coffee Shop
-            </h2>
-          </Link>
-        </li>
+        {reviews.map((review) => (
+          <li
+            key={review.slug}
+            className='bg-white border rounded shadow w-80 hover:shadow-xl'>
+            <Link href={`/reviews/${review.slug}`}>
+              <img
+                src={review.image}
+                alt='office-attendance-design'
+                width='640'
+                height='360'
+                className='rounded '
+              />
+              <h2 className='py-2 text-center text-[#303030] font-bold '>
+                {review.title}
+              </h2>
+            </Link>
+          </li>
+        ))}
       </ul>
     </>
   );
