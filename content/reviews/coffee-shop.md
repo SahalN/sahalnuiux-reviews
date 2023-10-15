@@ -16,12 +16,15 @@ alami, [Nama Coffee Shop] memberikan nuansa yang cozy dan mengundang.
 Furnitur yang dipilih dengan cermat, seperti kursi-kursi yang empuk dan
 meja kayu yang indah, menciptakan ruang yang menyenangkan untuk
 bersantai. Salah satu fitur menarik adalah dinding kaca yang
+
 memungkinkan cahaya alami memasuki ruangan, menciptakan suasana terang
 dan menyegarkan. Tanaman hias yang ditempatkan dengan apik di seluruh
 kafe menambahkan sentuhan hijau yang membangkitkan semangat. Desain menu
 dan tata letak area pemesanan juga patut dicatat. Konsepnya simpel dan
 mudah dipahami, memudahkan pelanggan untuk menelusuri beragam kopi dan
-hidangan ringan yang ditawarkan. Papan tulis dengan tulisan tangan
+hidangan ringan yang ditawarkan.
+
+Papan tulis dengan tulisan tangan
 menampilkan menu spesial dan rekomendasi barista menambahkan sentuhan
 personal yang menyenangkan. Selain itu, ruang pameran karya seni lokal
 di dinding kafe memberikan sentuhan budaya dan mendukung komunitas
