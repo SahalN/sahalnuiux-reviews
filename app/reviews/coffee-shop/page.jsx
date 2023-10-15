@@ -13,7 +13,7 @@ export default function CoffeeShopPage() {
         height='360'
         className='mx-auto mb-5 rounded'
       />
-      <p className=''>
+      <p>
         Review: [Nama Coffee Shop] menghadirkan pengalaman yang menggoda dan
         memikat bagi para pecinta kopi dengan desainnya yang penuh gaya. Begitu
         melangkah masuk, suasana hangat dan nyaman langsung menyambut,

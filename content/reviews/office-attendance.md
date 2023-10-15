@@ -1,3 +1,9 @@
+---
+title: "Office Attendance Design"
+date: "2023/06/05"
+image: "/images/office-attendance.png"
+---
+
 <!-- @format -->
 
 Desain Aplikasi Absensi Kantor ini menonjol dengan kecerdasan dalam menyatukan fungsi dan estetika, menghadirkan pengalaman manajemen kehadiran yang efisien dan elegan. Antarmukanya yang intuitif membuatnavigasi melalui platform ini menjadi pengalaman yang menyenangkan bagipengguna. Palet warna kontemporer yang dipilih dengan hati-hati menciptakan suasana yang tenang namun profesional, mencerminkan nuansaprogresif di tempat kerja. Keunggulan desain responsifnya memastikan

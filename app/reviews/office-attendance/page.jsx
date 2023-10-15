@@ -3,15 +3,22 @@
 import Heading from "@/components/Heading";
 import { readFile } from "node:fs/promises";
 import { marked } from "marked";
+import matter from "gray-matter";
 
 export default async function OfficeAttendancePage() {
   const text = await readFile("./content/reviews/office-attendance.md", "utf8");
-  const html = marked(text, { headerIds: false, mangle: false });
+  const {
+    content,
+    data: { title, date, image },
+  } = matter(text);
+  const html = marked(content, { headerIds: false, mangle: false });
+
   return (
     <>
-      <Heading>Office Attendance</Heading>
+      <Heading>{title}</Heading>
+      <p className='pb-2 italic'>Di publish pada {date}</p>
       <img
-        src='/images/office-attendance.png'
+        src={image}
         alt='office-attendance-design'
         width='640'
         height='360'
@@ -19,7 +26,7 @@ export default async function OfficeAttendancePage() {
       />
       <article
         dangerouslySetInnerHTML={{ __html: html }}
-        className='max-w-screen-sm prose text-white prose-slate'
+        className='prose text-white prose-slate'
       />
     </>
   );
