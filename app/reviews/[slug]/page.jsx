@@ -3,6 +3,13 @@
 import Heading from "@/components/Heading";
 import { getReview, getSlugs } from "@/lib/reviews";
 
+export async function generateMetadata({ params: { slug } }) {
+  const review = await getReview(slug);
+  return {
+    title: review.title,
+  };
+}
+
 export async function generateStaticParams() {
   const slugs = await getSlugs();
   return slugs.map((slug) => ({ slug }));
