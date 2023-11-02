@@ -33,18 +33,19 @@ export default async function ReviewPage({ params: { slug } }) {
         height='360'
         className='mx-auto mb-2 rounded'
       /> */}
-      <div className='w-auto w-70 '>
+      <div className='max-w-screen-sm mx-auto '>
         <iframe
-          width='640'
-          height='360'
+          // width='640'
+          // height='360'
           src={review.iframe}
-          className='mx-auto mt-5 mb-5 rounded aspect-auto '
+          className='mx-auto mt-5 mb-5 rounded aspect-auto sm:aspect-video w-[240px] h-[160px] sm:w-[640px] sm:h-[360px] '
+        />
+
+        <article
+          dangerouslySetInnerHTML={{ __html: review.body }}
+          className='mx-auto prose text-white prose-slate '
         />
       </div>
-      <article
-        dangerouslySetInnerHTML={{ __html: review.body }}
-        className='mx-auto prose text-white prose-slate '
-      />
     </>
   );
 }
