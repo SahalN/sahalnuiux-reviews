@@ -26,19 +26,10 @@ export default async function ReviewPage({ params: { slug } }) {
         <ShareLinkButton />
       </div>
 
-      {/* <img
-        src={review.image}
-        alt='office-attendance-design'
-        width='640'
-        height='360'
-        className='mx-auto mb-2 rounded'
-      /> */}
       <div className='max-w-screen-sm mx-auto '>
         <iframe
-          // width='640'
-          // height='360'
           src={review.iframe}
-          className='mx-auto mt-5 mb-5 rounded aspect-auto sm:aspect-video w-[240px] h-[160px] sm:w-[640px] sm:h-[360px] '
+          className='mx-auto mt-5 mb-5 rounded aspect-auto sm:aspect-video w-[320px] h-[180px] sm:w-[640px] sm:h-[360px] '
         />
 
         <article
