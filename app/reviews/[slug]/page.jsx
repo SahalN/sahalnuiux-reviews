@@ -26,13 +26,21 @@ export default async function ReviewPage({ params: { slug } }) {
         <ShareLinkButton />
       </div>
 
-      <img
+      {/* <img
         src={review.image}
         alt='office-attendance-design'
         width='640'
         height='360'
         className='mx-auto mb-2 rounded'
-      />
+      /> */}
+      <div className='w-auto w-70 '>
+        <iframe
+          width='640'
+          height='360'
+          src={review.iframe}
+          className='mx-auto mt-5 mb-5 rounded aspect-auto '
+        />
+      </div>
       <article
         dangerouslySetInnerHTML={{ __html: review.body }}
         className='mx-auto prose text-white prose-slate '

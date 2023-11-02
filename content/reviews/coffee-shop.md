@@ -2,6 +2,7 @@
 title: "Coffee Shop's Design"
 date: "2023/06/06"
 image: "/images/coffee-shop.png"
+iframe: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F5wcs08zdHmVHv14lRM6574%2FCoffee-Shop's-Design%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DW6PvYfHl7xO1iffm-1"
 ---
 
 <!-- @format -->
