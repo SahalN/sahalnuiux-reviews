@@ -20,7 +20,7 @@ export default async function ReviewsPage() {
         konsep dan industri yang pernah saya tangani. Terima kasih atas
         kunjungan Anda, semoga temukan inspirasi dalam desain-desain saya!
       </p>
-      <ul className='flex flex-col gap-3 mx-auto sm:flex-row '>
+      <ul className='flex flex-row flex-wrap gap-3 mx-auto sm:flex-row'>
         {reviews.map((review) => (
           <li
             key={review.slug}

@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={`${inter.variable} ${montserrat.variable} `}>
-      <body className='flex flex-col flex-wrap  min-h-screen mx-auto mt-3 px-4 lg:px-10 md:px-2 sm:px-5 py-2 bg-[#303030] text-white'>
+      <body className='flex flex-col  flex-wrap  min-h-screen mx-auto mt-3 px-4 lg:px-10 md:px-2 sm:px-5 py-2 bg-[#303030] text-white'>
         <header>
           <NavBar />
         </header>

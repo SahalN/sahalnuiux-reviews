@@ -2,7 +2,7 @@
 title: "Onboarding Baca Buku's Design"
 date: "2023/06/07"
 image: "/images/baca-buku.png"
-iframe: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FikamvOTBdV7q5Mny3bndsc%2FBaca-Buku's-Design-App%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DW6PvYfHl7xO1iffm-1"
+iframe: "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FikamvOTBdV7q5Mny3bndsc%2FBaca-Buku's-Design-App%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DdXnlaWLrM7l3m4C8-1"
 ---
 
 <!-- @format -->
